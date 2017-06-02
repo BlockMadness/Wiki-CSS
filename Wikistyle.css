@@ -1,7 +1,7 @@
 /* Wikistyle.css is for the Blockmadness Wiki pages. Stylesheet made by Arjan Dob
-* This style sheet contains all CSS for our Wiki buttons and notices! *
+* This style sheet contains all CSS for our Wiki buttons and notices!
 * The css page is posted on Github because we can auto import from github to out hosting!
-Only have to call the sheet in the wiki page!*/
+* Only have to call the sheet in the wiki page! */
 
 /*Header notice bar for main wiki page */
 /*Global Styling*/
@@ -70,4 +70,8 @@ a[href]:hover{text-decoration:none!important;}
 .red-button{box-shadow:0 4px 0 0 #b30000;background-color:#cd0000;}
 .red-button:hover{background-color: #b30000;}
 .red-button:active{background-color:#b30000;}
+/* Orange button class */
+.orange-button{box-shadow:0 4px 0 0 #cc8400;background-color:##ffa500;}
+.orange-button:hover{background-color: #cc8400;}
+.orange-button:active{background-color:#cc8400;}
 /*End of styling sheet */
