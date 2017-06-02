@@ -4,52 +4,109 @@
 * Only have to call the sheet in the wiki page! */
 
 /*Header notice bar for main wiki page */
-/*Global Styling*/
-.alert
-	{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px;}
-.alert h4
-	{margin-top:0;color:inherit;}
-.alert 
-.alert-link
-	{font-weight:bold;}
-/*Styling Sucess (Green)*/
-.alert-success
-	{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6;}
-.alert-success hr
-	{border-top-color:#c9e2b3;}
-.alert-success
-.alert-link
-	{color:#2b542c;}
-/*Styling info(Blue)*/
-.alert-info
-	{color:#31708f;background-color:#d9edf7;border-color:#bce8f1;}
-.alert-info hr
-	{border-top-color:#a6e1ec;}
-.alert-info 
-.alert-link
-	{color:#245269;}
-/*Styling Warning (Yellow)*/
-.alert-warning
-	{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc;}
-.alert-warning hr
-	{border-top-color:#f7e1b5;}
-.alert-warning 
-.alert-link
-	{color:#66512c;}
-/*Styling Danger (Red)*/
-.alert-danger
-	{color:#a94442;background-color:#f2dede;border-color:#ebccd1;}
-.alert-danger hr
-	{border-top-color:#e4b9c0;}
-.alert-danger 
-.alert-link
-	{color:#843534;}
-/*text style */
-a
-	{color:#4993c5;} 
-a:hover
-	{color:#5e5e5e;}
+/*Containers */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+/*Global Styling*/
+.alert {
+	padding:15px;
+	margin-bottom:20px;
+	border:1px solid transparent;
+	border-radius:4px;
+}
+.alert h4 {
+	margin-top:0;
+	color:inherit;
+}
+.alert 
+.alert-link {
+	font-weight:bold;
+}
+/*Styling Sucess (Green)*/
+.alert-success {
+	color:#3c763d;
+	background-color:#dff0d8;
+	border-color:#d6e9c6;
+}
+.alert-success hr {
+	border-top-color:#c9e2b3;
+}
+.alert-success
+.alert-link {
+	color:#2b542c;
+}
+/*Styling info(Blue)*/
+.alert-info {
+	color:#31708f;
+	background-color:#d9edf7;
+	border-color:#bce8f1;
+}
+.alert-info hr {
+	border-top-color:#a6e1ec;
+}
+.alert-info 
+.alert-link {
+	color:#245269;
+}
+/*Styling Warning (Yellow)*/
+.alert-warning {
+	color:#8a6d3b;
+	background-color:#fcf8e3;
+	border-color:#faebcc;
+}
+.alert-warning hr {
+	border-top-color:#f7e1b5;
+}
+.alert-warning 
+.alert-link {
+	color:#66512c;
+}
+/*Styling Danger (Red)*/
+.alert-danger {
+	color:#a94442;
+	background-color:#f2dede;
+	border-color:#ebccd1;
+}
+.alert-danger hr {
+	border-top-color:#e4b9c0;
+}
+.alert-danger 
+.alert-link {
+	color:#843534;
+}
+/*text style */
+a {
+	color:#4993c5;
+} 
+a:hover {
+	color:#5e5e5e;
+}	
 /* general wiki button style */
 a[href]:hover{text-decoration:none!important;}
 .wiki-buttons{border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;padding:20px;font-size:20px;color:#fff;min-width:200px;width:200px;margin:3px;text-align:center;transition:background-color .25s ease;text-decoration:none!important;_text-decoration:none!important;font-weight:bold;}
